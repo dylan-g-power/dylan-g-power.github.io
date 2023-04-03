@@ -1,0 +1,103 @@
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(216, 151, 60) 25%, rgb(189, 99, 47) 50%, rgb(69, 69, 69) 75%, rgb(230, 230, 230) 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.5s;
+   
+  }
+  h1 {
+    font-size: 100%;
+    font-family: cursive;
+    transition: 0.5s;
+  }
+  h1:hover {
+    font-size: 200%;
+  }
+  button {
+    font-size: auto;
+    transition: 0.5s;
+    font-family: boge;
+  }
+  button:hover {
+    font-size: 200%;
+  }
+  p {
+    font-size: auto;
+    transition: 0.5s;
+  }
+  p:hover {
+    font-size: 200%;
+  }
+  li {
+    font-size: auto;
+    transition: 0.5s;
+  }
+  li:hover {
+    font-size: 200%;
+  }
+  img {
+    width: 70%;
+    height: 70%;
+    transition: 0.5s;
+    padding: 10px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  img:hover {
+    width: 100%;
+    height: 100%;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  cite {
+    font-size: auto;
+    transition: 0.5s;
+    font-style: italic;
+  }
+  cite:hover {
+    font-size: 200%
+  }
+  blockquote {
+    font-size: 1em;
+    font-family: cursive;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: 10px
+  }
+  div.left-side {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    font-family: boge;
+  }
+    div.right-side {
+        float: right;
+        width: 50%;
+        margin-top: 10px;
+        font-family: boge;
+    }
+div.brand {
+    text-transform: uppercase;
+    font-family: boge;
+  }
+  div.maintext {
+    justify-self: center;
+  }
+  @font-face {
+    font-family: boge;
+    src: url(Boge.ttf);
+  }
+div.grid {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
